@@ -40,7 +40,7 @@ def claude_gen(input):
     return answer
 
 def prompt2gpt(input):
-    client = OpenAI(api_key="sk-None-uiCqQT9kG15kociJfaN6T3BlbkFJOkzYttVfB1h3NA5sfKQH")
+    client = OpenAI(api_key="ENTER KEY HERE")
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": input}],
