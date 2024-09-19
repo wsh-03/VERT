@@ -1,7 +1,7 @@
 from openai import OpenAI
 import json
 
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "ENTER KEY HERE"
 model_type = "gpt-3.5-turbo"
 
 response_history = []
