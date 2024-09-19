@@ -1,0 +1,4 @@
+language=c
+project=COUNT_POSSIBLE_PATHS_TOP_LEFT_BOTTOM_RIGHT_NXM_MATRIX_3
+verification=bolero
+python3 evaluation.py $benchmark_language $test_name $verification
