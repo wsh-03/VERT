@@ -111,7 +111,7 @@ def llm_transpile(
         source_code
         + f"\nCompilable Rust refactoring of above C{language} code, with code only, no comments. Use the same function name, same argument types and return types. Make sure it includes all imports, uses safe rust, and compiles on its own. Give only code, and no main function. Convert i32 types to f32 if necessary. Use mut variables if necessary. {bolero_counter_example}"
     )
-    
+      
 
     compiles = False
     tries = 0
